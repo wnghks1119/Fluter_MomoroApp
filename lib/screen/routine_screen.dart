@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../component/Routine_list_component.dart';
-import 'home_screan.dart';
+import 'home_screen.dart';
 
 class RoutineScreen extends StatelessWidget {
   const RoutineScreen({Key? key}) : super(key: key);
@@ -15,7 +15,7 @@ class RoutineScreen extends StatelessWidget {
         centerTitle: true,
         actions: [
           IconButton(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.calendar_month),
             onPressed: () {
               Navigator.push(
                 context,

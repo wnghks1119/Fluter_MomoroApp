@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
+import '../screen/login_after_screen.dart';
 import 'input_text_list_component.dart';
 
 class TableCalendarComponent extends StatefulWidget {
@@ -18,6 +19,19 @@ class _TableCalendarComponentState extends State<TableCalendarComponent> {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.home),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => loginAfterScreen(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: TableCalendar(
         locale: 'ko_KR',

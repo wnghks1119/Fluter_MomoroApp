@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:hello_world/component/text_bottom_sheet.dart';
 import 'package:intl/intl.dart';
-
-import '../screan/routine_screen.dart';
+import '../screen/routine_screen.dart';
 
 class InputTextListComponent extends StatelessWidget {
   final DateTime selectedDate;

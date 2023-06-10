@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "779562655436",
+    "project_id": "momoroappdev",
+    "storage_bucket": "momoroappdev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779562655436:android:44614c388f0e615d87ac69",
+        "android_client_info": {
+          "package_name": "com.example.hello_world"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779562655436-fanbd4riaid8ja6filj9eah8k0l0edmq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hello_world",
+            "certificate_hash": "7e4aa30b5b25e4f3a42c53807e3e162df6970f4a"
+          }
+        },
+        {
+          "client_id": "779562655436-4kgjd3dlrr5iqkdsqmm8jjpfhcvtl2i3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaGRFUCd-KZTwkNi6kHYCtvSFLC7CxrZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779562655436-4kgjd3dlrr5iqkdsqmm8jjpfhcvtl2i3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
